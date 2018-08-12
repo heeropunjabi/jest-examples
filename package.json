@@ -1,0 +1,30 @@
+{
+  "name": "jest-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.0",
+    "jest": "^23.4.1",
+    "regenerator-runtime": "^0.12.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "https://localhost:5000/"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "promise": "^8.0.1",
+    "react": "^16.4.1",
+    "react-test-renderer": "^16.4.2",
+    "request": "^2.88.0"
+  }
+}
