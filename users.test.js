@@ -5,7 +5,7 @@ import * as user from "./users";
 // The assertion for a promise must be returned.
 test("should ", () => {
   expect.assertions(1);
-  return expect(user.getUserName(4)).rejects.toEqual({
+  return expect(user.getUserName(3)).rejects.toEqual({
     error: "User with 3 not found."
   });
 });
